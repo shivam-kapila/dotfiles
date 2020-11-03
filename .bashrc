@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# sets the path for the firefox developer edition executable file:
+export PATH=/opt/firefox/firefox:$PATH
